@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', sans-serif; }
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    padding: 60px 40px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 550px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 { margin-bottom: 20px; color: #1a1a1a; }
+
+.badge {
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.recommended { background: #fff5f5; color: #e53e3e; border: 1px solid #feb2b2; }
+.good { background: #f0fff4; color: #38a169; border: 1px solid #9ae6b4; }
+
+.options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.option-btn {
+    background: #ffffff;
+    border: 2px solid #f0f0f0;
+    padding: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.option-btn:hover {
+    border-color: #6c5ce7;
+    background: #f9f9ff;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover { transform: scale(1.05); background: #5b4bc4; }
+
+/* Import clean academic font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main Container Spacing */
+.container {
+    background: #ffffff;
+    padding: 60px 45px; /* Increased vertical padding for better spacing */
+    border-radius: 35px;
+    width: 100%;
+    max-width: 580px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Spacing */
+h1 {
+    color: #1a1a1a;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 16px; /* Gap between "Analysis Result" and "You Scored" */
+    letter-spacing: -0.5px;
+}
+
+/* Sub-text Spacing */
+p {
+    color: #636e72;
+    font-size: 1.1rem;
+    margin-bottom: 35px; /* Gap before the Persona Card or Badge */
+    line-height: 1.6;
+}
+
+/* Persona Card Spacing and Internal Margins */
+.persona-card {
+    background: #f8f9ff;
+    border-left: 5px solid #6c5ce7;
+    padding: 25px;
+    margin: 30px 0; /* Vertical margin to separate it from text above and badge below */
+    text-align: left;
+    border-radius: 0 18px 18px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.persona-title {
+    font-weight: 700;
+    color: #6c5ce7;
+    font-size: 0.85rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 12px; /* Gap between title and the detected style text */
+}
+
+/* Recommendation Badge Spacing */
+.badge {
+    padding: 18px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    margin-bottom: 30px; /* Gap before the Restart button */
+    width: 100%;
+    display: block;
+}
+
+/* Button Spacing */
+.btn-primary {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 18px 55px;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(108, 92, 231, 0.25);
+    margin-top: 10px; /* Extra space from element above */
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(108, 92, 231, 0.35);
+}
+
+/* Quiz Options Spacing (for the Quiz Page) */
+.options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Consistent gap between each answer choice */
+    margin-top: 25px;
+}
+
+.option-btn {
+    padding: 18px 25px;
+    border-radius: 15px;
+    border: 2px solid #f0f0f0;
+    background: #fff;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.option-btn:hover {
+    border-color: #6c5ce7;
+    background: #f9f9ff;
+}
+
+/* Progress Bar Spacing */
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background: #f1f2f6;
+    border-radius: 20px;
+    margin-bottom: 40px; /* Space between progress bar and question text */
+    overflow: hidden;
+}
+
+/* Chatbot Floating Button */
+#chatbot-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #4f46e5;
+    color: white;
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+/* Chatbot Box */
+#chatbot-box {
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    width: 320px;
+    height: 420px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    display: none;
+    flex-direction: column;
+    z-index: 999;
+}
+
+/* Header */
+#chatbot-header {
+    background: #4f46e5;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Messages */
+#chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+/* Bot Message */
+.bot-message {
+    background: #eef2ff;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* User Message */
+.user-message {
+    background: #d1fae5;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+/* Input Area */
+#chatbot-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+#chatbot-input input {
+    flex: 1;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#chatbot-input button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+

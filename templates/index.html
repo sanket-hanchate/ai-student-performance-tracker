@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI Student Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AI Student Tracker</h1>
+        <p>Assess your performance with Machine Learning.</p>
+
+        <a href="/quiz">
+            <button class="btn-primary">Start Quiz</button>
+        </a>
+    </div>
+    <script src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+</body>
+</html>

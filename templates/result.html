@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Analysis Result</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Result</h1>
+        <p>You scored <strong id="display-score">0</strong>%</p>
+
+        <div id="display-badge" class="badge"></div>
+        
+        <div style="margin-top: 20px; color: #636e72; font-size: 0.9rem;">
+            Analysis based on your test performance and completion time.
+        </div>
+
+        <div id="future-score-box" style="
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: white;
+            display: none;
+        ">
+            <h2 style="margin-bottom: 10px;">Future Performance Prediction</h2>
+            <p style="font-size: 1.1rem;">
+                Based on your learning trend, your next predicted score is:
+            </p>
+            <h1 style="margin-top: 10px;">
+                <span id="future-score">0</span>%
+            </h1>
+            <p id="future-message" style="margin-top: 10px; font-size: 0.95rem;"></p>
+        </div>
+
+        <br>
+        <a href="/"><button class="btn-primary">Restart Quiz</button></a>
+    </div>
+
+    <script>
+        // Retrieve data stored by quiz.js
+        const score = localStorage.getItem('userScore');
+        const message = localStorage.getItem('mlMessage');
+
+        document.getElementById('display-score').innerText = score || "0";
+        
+        const badge = document.getElementById('display-badge');
+        if (message) {
+            badge.innerText = message;
+            // Apply color coding: Red for Tutoring, Green for Good
+            badge.className = message.includes("Recommended") ? "badge recommended" : "badge good";
+        }
+        const futureScore = localStorage.getItem("futureScore");
+
+        if (futureScore) {
+            document.getElementById("future-score-box").style.display = "block";
+            document.getElementById("future-score").innerText = futureScore;
+
+            const futureMsg = document.getElementById("future-message");
+
+            if (futureScore >= 80) {
+                futureMsg.innerText = "Excellent progress! Keep up the great learning momentum";
+            } else if (futureScore >= 60) {
+                futureMsg.innerText = "Good improvement expected with consistent practice";
+            } else {
+                futureMsg.innerText = "Focused effort and guidance can significantly boost your performance";
+            }
+        }
+    </script>
+</body>
+</html>

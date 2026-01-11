@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "question": "Which of these is a programming language?",
+        "options": ["HTML", "Python", "CSS", "SQL"],
+        "answer": "Python"
+    },
+    {
+        "id": 2,
+        "question": "What is 25 * 4?",
+        "options": ["50", "75", "100", "125"],
+        "answer": "100"
+    },
+    {
+        "id": 3,
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "Paris"
+    }
+]
