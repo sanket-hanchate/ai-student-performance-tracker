@@ -1,0 +1,101 @@
+student_id,student_name,grade_level,subject,quiz_id,quiz_title,quiz_date,score,max_score,completed,time_taken_minutes,attempt_number,tutoring_recommended,curriculum_flag,teacher_id
+STU1024,Ava Chen,Grade 8,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,92.5,100,true,38.7,1,false,false,TCH201
+STU1032,Samuel Lee,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,55,100,true,42.3,1,true,false,TCH301
+STU1101,Isabella Gomez,Grade 9,History,HIST210,World War II Overview,2024-03-10,77,100,true,29.8,1,false,false,TCH403
+STU1042,Noah Patel,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,66.5,100,true,51.2,1,false,false,TCH112
+STU1076,Layla Brown,Grade 7,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,48,100,true,60.5,2,true,true,TCH201
+STU1053,Lucas Wang,Grade 8,Science,SCI107,Basic Chemistry,2024-02-27,87.2,100,true,37.6,1,false,false,TCH301
+STU1087,Mia Johnson,Grade 9,History,HIST210,World War II Overview,2024-03-10,81.5,100,true,33.1,1,false,false,TCH403
+STU1094,Ethan Smith,Grade 7,English,ENG302,Essay Writing Skills,2024-03-06,59,100,true,55,1,true,false,TCH112
+STU1063,Sophia Williams,Grade 8,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,61,100,true,49.9,1,false,false,TCH201
+STU1128,Benjamin Garcia,Grade 9,Science,SCI107,Basic Chemistry,2024-02-27,26,100,false,,1,true,true,TCH301
+STU1135,Olivia Lopez,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,75.8,100,true,47.2,1,false,false,TCH112
+STU1152,Henry Evans,Grade 7,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,33.5,100,true,65,2,true,true,TCH201
+STU1144,Charlotte Rivera,Grade 9,History,HIST210,World War II Overview,2024-03-10,89,100,true,31.6,1,false,false,TCH403
+STU1200,William Nguyen,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,58.3,100,true,48.9,1,true,false,TCH301
+STU1185,Ella Martinez,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,83.7,100,true,39.4,2,false,false,TCH112
+STU1197,Daniel Kim,Grade 9,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,47,100,false,,2,true,true,TCH201
+STU1212,Chloe Allen,Grade 8,Science,SCI107,Basic Chemistry,2024-02-27,93.9,100,true,35.2,1,false,false,TCH301
+STU1226,Jack Murphy,Grade 7,English,ENG302,Essay Writing Skills,2024-03-06,61,100,true,44.1,1,false,false,TCH112
+STU1233,Zoe Clark,Grade 8,History,HIST210,World War II Overview,2024-03-10,54.6,100,true,47.8,2,true,true,TCH403
+STU1241,Mason Scott,Grade 9,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,76.1,100,true,35,1,false,false,TCH201
+STU1258,Harper Young,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,62.2,100,true,41.5,1,false,false,TCH301
+STU1270,Grace Baker,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,58,100,true,64.2,2,true,false,TCH112
+STU1284,Leo Adams,Grade 9,History,HIST210,World War II Overview,2024-03-10,70,100,true,38.9,1,false,false,TCH403
+STU1301,Lily King,Grade 8,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,39.2,100,true,59.4,2,true,true,TCH201
+STU1325,James Hughes,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,84,100,true,36.8,2,false,false,TCH301
+STU1334,Emily Turner,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,49.5,100,true,61.3,2,true,false,TCH112
+STU1349,Matthew Parker,Grade 9,History,HIST210,World War II Overview,2024-03-10,65.6,100,true,43.2,1,false,false,TCH403
+STU1367,Scarlett Hall,Grade 7,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,51,100,true,56,2,true,true,TCH201
+STU1381,Sebastian Moore,Grade 8,Science,SCI107,Basic Chemistry,2024-02-27,69,100,true,46.9,2,false,false,TCH301
+STU1394,Addison Nelson,Grade 9,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,23.5,100,false,,1,true,true,TCH201
+STU1402,Logan Carter,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,91.3,100,true,36.7,2,false,false,TCH112
+STU1417,Madison Flores,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,36.4,100,true,59.2,2,true,true,TCH301
+STU1433,Avery Ramirez,Grade 8,History,HIST210,World War II Overview,2024-03-10,74.5,100,true,39,2,false,false,TCH403
+STU1448,Ella Bell,Grade 9,English,ENG302,Essay Writing Skills,2024-03-06,81,100,true,43.6,1,false,false,TCH112
+STU1477,Carter Diaz,Grade 7,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,62.8,100,true,47.5,1,false,false,TCH201
+STU1491,Victoria Mitchell,Grade 8,Science,SCI107,Basic Chemistry,2024-02-27,91.7,100,true,32.1,1,false,false,TCH301
+STU1508,Julian Perez,Grade 9,History,HIST210,World War II Overview,2024-03-10,51.2,100,true,56.8,2,true,true,TCH403
+STU1526,Luke Walker,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,68,100,true,46.4,1,false,false,TCH112
+STU1540,Penelope Scott,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,44.8,100,true,62,2,true,true,TCH301
+STU1553,David Green,Grade 8,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,83.3,100,true,41.7,1,false,false,TCH201
+STU1572,Sofia Rivera,Grade 7,English,ENG302,Essay Writing Skills,2024-03-06,90,100,true,34.2,1,false,false,TCH112
+STU1591,Thomas Edwards,Grade 8,History,HIST210,World War II Overview,2024-03-10,72,100,true,42.9,2,false,false,TCH403
+STU1607,Mila Torres,Grade 9,Mathematics,MATHQZ101,Algebra Basics Quiz,2024-03-04,58.7,100,true,53.2,2,true,false,TCH201
+STU1628,Nathan Bennett,Grade 7,Science,SCI107,Basic Chemistry,2024-02-27,79.2,100,true,38.6,1,false,false,TCH301
+STU1639,Savannah Wood,Grade 8,English,ENG302,Essay Writing Skills,2024-03-06,54.2,100,true,57.8,2,true,false,TCH112
+STU1651,Elijah Brooks,Grade 9,History,HIST210,World War II Overview,2024-03-10,80,100,true,36.4,1,false,false,TCH403
+S1042,Harriet Bennett,Grade 10,Geography,QZ217,Earth Systems Quiz,2023-10-09,91,100,true,34.2,1,false,false,TCH313
+S1176,Ethan Goodman,Year 2,Mathematics,QZ204,Addition & Subtraction,2023-11-05,78.5,100,true,23.4,1,false,false,TCH129
+S1129,Lina Aref,Grade 8,Science,QZ209,Physical Changes,2023-12-02,65,100,true,28.7,1,false,false,TCH215
+S1098,Kevin O'Brien,Grade 9,History,QZ222,Roman Empire,2023-10-22,49,100,true,39.6,2,true,false,TCH174
+S1067,Priya Nair,Grade 11,Mathematics,QZ230,Trigonometry,2023-11-01,87.5,100,true,45,1,false,false,TCH301
+S1114,Oscar Feldman,Grade 8,English,QZ228,Reading Comprehension,2023-10-10,56,100,true,33.1,1,true,false,TCH267
+S1181,Karina Lopez,Year 1,Mathematics,QZ204,Addition & Subtraction,2023-11-06,68.5,100,true,19.8,1,false,false,TCH129
+S1103,Emily Zhang,Grade 10,Science,QZ210,Genetics Basics,2023-10-12,59,100,true,42.7,1,true,false,TCH215
+S1095,Marcus Lee,Grade 9,Mathematics,QZ213,Quadratic Equations,2023-11-14,96.5,100,true,49.9,1,false,false,TCH301
+S1190,Fatima Hussain,Year 2,Science,QZ219,Plant Life,2023-11-03,88,100,true,21,1,false,false,TCH236
+S1128,Gabriel Souza,Grade 8,Mathematics,QZ211,Linear Functions,2023-11-20,74,100,true,35.2,1,false,false,TCH301
+S1174,Noah Kim,Year 1,English,QZ225,Phonics & Vowels,2023-10-02,61,100,true,17.3,1,false,false,TCH267
+S1137,Isabelle Laurent,Grade 8,Geography,QZ217,Earth Systems Quiz,2023-10-09,42.5,100,true,22.8,1,true,true,TCH313
+S1109,James Rowe,Grade 10,English,QZ229,Essay Writing,2023-10-19,89,100,true,40.4,1,false,false,TCH267
+S1193,Liam O'Connor,Year 2,History,QZ221,Ancient Stories,2023-11-18,27,100,false,,1,true,false,TCH174
+S1083,Maya Patel,Grade 9,Science,QZ210,Genetics Basics,2023-10-12,61.5,100,true,38.2,2,false,false,TCH215
+S1159,Elena Ivanova,Grade 11,Mathematics,QZ230,Trigonometry,2023-11-01,93,100,true,39.7,1,false,false,TCH301
+S1167,Sarah Williams,Year 2,English,QZ226,Storytelling,2023-10-23,58.5,100,true,23.9,1,true,false,TCH267
+S1118,Ava Wilson,Grade 10,Mathematics,QZ213,Quadratic Equations,2023-11-14,71,100,true,42.5,1,false,false,TCH301
+S1132,Jasper Müller,Grade 8,History,QZ222,Roman Empire,2023-10-22,54,100,true,35.7,1,true,false,TCH174
+S1056,Benjamin Carter,Grade 9,Geography,QZ218,Weather & Climate,2023-10-15,82,100,true,31.3,2,false,false,TCH313
+S1152,Chloe Martin,Grade 10,English,QZ229,Essay Writing,2023-10-19,61,100,true,36.2,2,false,false,TCH267
+S1161,Daniel Ruiz,Year 2,Science,QZ219,Plant Life,2023-11-03,53,100,true,27.4,1,true,false,TCH236
+S1191,Olivia Green,Year 1,History,QZ221,Ancient Stories,2023-11-18,78,100,true,29.3,1,false,false,TCH174
+S1075,Simon Dubois,Grade 11,Geography,QZ218,Weather & Climate,2023-10-15,61.5,100,true,41.8,1,false,false,TCH313
+S1195,Lucas Meyer,Year 2,Mathematics,QZ205,Multiplication & Division,2023-11-11,44,100,true,25.8,1,true,true,TCH129
+S1104,Anna Nowak,Grade 9,Mathematics,QZ213,Quadratic Equations,2023-11-14,76,100,true,40.6,2,false,false,TCH301
+S1072,Jack Evans,Grade 10,Science,QZ209,Physical Changes,2023-12-02,39.5,100,true,25.7,2,true,true,TCH215
+S1184,Emma Johansson,Year 1,English,QZ225,Phonics & Vowels,2023-10-02,64.5,100,true,19.2,1,false,false,TCH267
+S1134,Tomás Silva,Grade 9,History,QZ222,Roman Empire,2023-10-22,33,100,false,,1,true,false,TCH174
+S1058,Sophie Baker,Grade 8,Science,QZ209,Physical Changes,2023-12-02,55,100,true,32.5,1,true,true,TCH215
+S1196,Yun Lee,Year 2,Mathematics,QZ205,Multiplication & Division,2023-11-11,92,100,true,27.7,1,false,false,TCH129
+S1168,Pavel Petrov,Grade 10,Geography,QZ217,Earth Systems Quiz,2023-10-09,53.5,100,true,30.2,2,true,true,TCH313
+S1092,Aisha Ahmed,Grade 9,Science,QZ210,Genetics Basics,2023-10-12,87,100,true,34.1,1,false,false,TCH215
+S1182,Maria Gonzalez,Year 1,Science,QZ220,Animal Types,2023-11-13,80,100,true,20.6,1,false,false,TCH236
+S1107,Samuel Brown,Grade 11,Mathematics,QZ230,Trigonometry,2023-11-01,98,100,true,37.8,1,false,false,TCH301
+S1198,Nina Schmidt,Year 2,English,QZ226,Storytelling,2023-10-23,73,100,true,25.1,1,false,false,TCH267
+S1197,George King,Year 2,Mathematics,QZ205,Multiplication & Division,2023-11-11,62,100,true,22.6,2,false,false,TCH129
+S1148,Ella Murphy,Grade 8,English,QZ228,Reading Comprehension,2023-10-10,48,100,false,,1,true,false,TCH267
+S1172,Marta Rossi,Year 1,Mathematics,QZ204,Addition & Subtraction,2023-11-05,89.5,100,true,21.7,2,false,false,TCH129
+S1082,Jonathan Clark,Grade 9,Geography,QZ218,Weather & Climate,2023-10-15,55,100,true,40.9,1,true,false,TCH313
+S1121,Henry Stewart,Grade 11,Science,QZ210,Genetics Basics,2023-10-12,78,100,true,41.1,2,false,false,TCH215
+S1157,Megan Taylor,Grade 9,English,QZ228,Reading Comprehension,2023-10-10,66,100,true,30.9,2,false,false,TCH267
+S1188,Riya Sharma,Year 1,Science,QZ220,Animal Types,2023-11-13,42,100,true,23.5,1,true,false,TCH236
+S1163,David Hall,Year 2,English,QZ226,Storytelling,2023-10-23,82,100,true,22.8,2,false,false,TCH267
+STU3098,Morgan Evans,Year 9,Geography,QZ1103,World Climates Quiz,2023-03-17,74.5,100,true,33.2,1,false,false,TCHR202
+STU3156,Ayesha Iqbal,Grade 8,Mathematics,MATHQZ01,Linear Equations Assessment,2024-01-27,58,100,true,41.5,1,true,false,TCHR112
+STU2884,Gabriel Lee,Year 10,Science,SCI101,Cell Biology Quiz,2023-09-13,91,100,true,27.9,2,false,false,TCHR119
+STU3477,Sean O'Brien,Grade 7,English,ENGQZ15,Poetry Devices,2024-02-14,62,100,true,37,1,false,false,TCHR210
+STU3012,Rosa Martinez,Year 8,History,HISTQZ03,Industrial Revolution,2023-10-22,36.5,100,true,45.2,1,true,true,TCHR231
+STU3641,Jin Park,Grade 9,Mathematics,MATHQZ08,Probability & Statistics,2023-12-06,98.5,100,true,24.3,2,false,false,TCHR112
+STU3899,Sophie Dubois,Year 8,Science,SCI107,Forces & Motion,2024-02-11,46,100,false,,1,true,true,TCHR119
+STU3277,Fatima Noor,Grade 7,English,ENGQZ25,Reading Comprehension,2023-11-15,79.5,100,true,30.6,1,false,false,TCHR210
+STU3528,Lucas Johnson,Year 9,Geography,QZ1207,Urbanisation Quiz,2024-02-04,53,100,true,39.8,1,true,false,TCHR202
